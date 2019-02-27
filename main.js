@@ -37,7 +37,7 @@ function getAirPodsLoop() {
 
 /**
  * Returns a list of stores where AirPods are available.
- * @param {Object[]} list - Array of Apple store objects in REST format.
+ * @param {Object[]} list - Array of Apple store JSON objects.
  * @returns {string[]} list of Apple Store names where AirPods are currently available.
  */
 function getAllAirpodsAvailable(list) {
